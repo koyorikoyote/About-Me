@@ -5,24 +5,27 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #141414;
+  color: #e5e5e5;
   display: flex;
-  background: #f9f9f9;
-  color: #333;
 }
 
+/* Sidebar (Left Navigation) */
 .sidebar {
   min-width: 220px;
-  background: #1e1e2f;
-  color: white;
+  background-color: #000;
   height: 100vh;
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
   position: fixed;
+  border-right: 1px solid #333;
 }
 
 .sidebar h1 {
   font-size: 1.5rem;
+  color: #e50914;
   margin-bottom: 2rem;
+  letter-spacing: 1px;
 }
 
 .sidebar ul {
@@ -30,49 +33,70 @@ body {
 }
 
 .sidebar li {
-  margin: 1rem 0;
+  margin: 1.2rem 0;
 }
 
 .sidebar a {
-  color: #ccc;
+  color: #b3b3b3;
   text-decoration: none;
-  transition: color 0.3s;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .sidebar a:hover {
   color: #fff;
 }
 
+/* Main content */
 main {
   margin-left: 240px;
   padding: 2rem;
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
 }
 
 section {
   margin-bottom: 3rem;
-  background: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
 h2 {
   margin-bottom: 1rem;
-  color: #1e1e2f;
+  color: #fff;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
 }
 
-.job h3 {
+h3 {
+  color: #e5e5e5;
+  margin-top: 1rem;
+}
+
+ul {
   margin-top: 0.5rem;
-  color: #444;
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 a {
-  color: #0077cc;
+  color: #e50914;
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
+/* Smooth transitions */
+.sidebar a,
+a,
+button {
+  transition: all 0.2s ease-in-out;
+}

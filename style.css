@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #aaa; /* light gray background */
-  color: #000; /* black font color */
+  background-color: #000; /* black background */
+  color: #fff; /* white font color */
   display: flex;
   justify-content: center;
   padding: 2rem;
@@ -35,7 +35,7 @@ body {
 .profile h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #000;
+  color: #e50914;
 }
 
 .links {

@@ -1,3 +1,9 @@
+# Resume Web Profile Demo
+Using my resume as a template
+
+# Viewable at Github Pages:
+
+
 # Kevin Lai Hongqing
 
 ## About Me

@@ -4,7 +4,7 @@ Using my resume as a template
 # Viewable at Github Pages:
 https://koyorikoyote.github.io/About-Me/
 
-# Resume Contents:
+# My Resume Contents:
 ## Kevin Lai Hongqing
 ## About Me
 

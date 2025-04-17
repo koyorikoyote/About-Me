@@ -4,8 +4,8 @@ Using my resume as a template
 # Viewable at Github Pages:
 https://koyorikoyote.github.io/About-Me/
 
-# My Resume Contents:
-## Kevin Lai Hongqing
+# Example - My Resume Contents:
+## Name: Kevin Lai Hongqing
 ## About Me
 
 Experienced IT systems developer with 4 years of expertise in full-stack development specializing in backend solutions and database administration. Strong foundation in multiple programming languages, frameworks and relational query databases, with hands-on experience in manufacturing and financial industry systems' development, deployment and maintenance. Adept at working in international teams, with native-level English proficiency and JLPT N3 Japanese competency.
